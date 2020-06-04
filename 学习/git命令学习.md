@@ -80,3 +80,6 @@ $ git log --pretty=oneline 文件路径名
 $ git show <git提交的版本号>  <文件名(带路径)
 
 >![image-20200604144132419](C:\Users\梁修虎\AppData\Roaming\Typora\typora-user-images\image-20200604144132419.png)
+
+
+
