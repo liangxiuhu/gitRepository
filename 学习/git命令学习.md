@@ -44,12 +44,12 @@
 2. git status    : 查看当前项目中哪些文件被别人修改了，具体的状态如下：
    1. Untracked:未跟踪，一般为新增文件，此文件在文件夹中，但是并没有添加到git库，不参与版本控制。可通过git add 把状态改变为Staged
    2. Modified:文件已经被修改，仅仅只是修改，并没有进行其他操作
-   3. deleted:文件已经删除，本地删除，服务器上还没有删除
+   3. deleted:文件已经删除，本地删除，服务器上还没有删除![image-20200604084621356](C:\Users\梁修虎\AppData\Roaming\Typora\typora-user-images\image-20200604084621356.png)
 3. 将改变的文件提交至缓存
    1. git add .    将所有的修改的文件提交到缓存
    2. git add filename  将filename文件提交到缓存
    3. git add -u +路径    将目录下被修改过的被跟踪的文件提交到缓存
-   4. git add -A +路径    将目录下被修改过的未被跟踪的文件提交到缓存
-4. 将代码提交到本地仓库     git commit -m '提交说明'
-5. 将缓存区代码提交到GIT服务器  git push
+   4. git add -A +路径    将目录下被修改过的未被跟踪的文件提交到缓存![image-20200604084637150](C:\Users\梁修虎\AppData\Roaming\Typora\typora-user-images\image-20200604084637150.png)
+4. 将代码提交到本地仓库     git commit -m '提交说明'![image-20200604084651375](C:\Users\梁修虎\AppData\Roaming\Typora\typora-user-images\image-20200604084651375.png)
+5. 将缓存区代码提交到GIT服务器  git push![image-20200604084703223](C:\Users\梁修虎\AppData\Roaming\Typora\typora-user-images\image-20200604084703223.png)
 
