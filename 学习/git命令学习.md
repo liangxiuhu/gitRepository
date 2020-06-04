@@ -53,3 +53,30 @@
 4. 将代码提交到本地仓库     git commit -m '提交说明'![image-20200604084651375](C:\Users\梁修虎\AppData\Roaming\Typora\typora-user-images\image-20200604084651375.png)
 5. 将缓存区代码提交到GIT服务器  git push![image-20200604084703223](C:\Users\梁修虎\AppData\Roaming\Typora\typora-user-images\image-20200604084703223.png)
 
+
+
+
+
+## 3、查看文件的提交记录
+
+### 1、查看全部的提交记录
+
+$ git log --oneline --graph --decorate
+
+![image-20200604143523450](C:\Users\梁修虎\AppData\Roaming\Typora\typora-user-images\image-20200604143523450.png)
+
+
+
+### 2、查看具体文件的提交记录
+
+$ git log --pretty=oneline 文件路径名
+
+![image-20200604143838643](C:\Users\梁修虎\AppData\Roaming\Typora\typora-user-images\image-20200604143838643.png)
+
+
+
+### 3、查看某次文件具体修改信息
+
+$ git show <git提交的版本号>  <文件名(带路径)
+
+>![image-20200604144132419](C:\Users\梁修虎\AppData\Roaming\Typora\typora-user-images\image-20200604144132419.png)
